@@ -28,4 +28,13 @@ This project began as an exploration of rental price trends across Brooklyn, Man
 - Imported CSVs into **PostgreSQL**.
 - Converted dates and created proper time-series fields.
 - Calculated YoY percent changes using SQL `LAG()` and rolling averages with window functions.
+- Joined rent and inflation tables to create one unified table.
+
+### 2. Visualizations in Tableau
+
+- Line graphs of rent trends by borough (2015–2024)
+
+- Rent vs. CPI inflation (YoY % change)
+
+
 
