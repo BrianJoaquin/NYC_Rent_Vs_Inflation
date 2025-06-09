@@ -29,10 +29,3 @@ This project began as an exploration of rental price trends across Brooklyn, Man
 - Converted dates and created proper time-series fields.
 - Calculated YoY percent changes using SQL `LAG()` and rolling averages with window functions.
 
-### 2. **SQL Highlights**
-```sql
--- Year-over-year percent change in NYC Rent Index
-SELECT
-  "Month",
-  ROUND((("NYC" - LAG("NYC", 12) OVER (ORDER BY "Month")) / LAG("NYC", 12) OVER (ORDER BY "Month")) * 100, 2) AS yoy_percent_change
-FROM nyc_rent_index;
