@@ -7,7 +7,7 @@ This project began as an exploration of rental price trends across Brooklyn, Man
 ##  Overview
 
 -  **Goal**: Understand how rental trends shifted over time, particularly around the COVID-19 pandemic, and how they compare to inflation.
--  **Tools Used**: PostgreSQL, Tableau Public, Excel
+-  **Tools Used**: PostgreSQL, Tableau Public, Microsoft Excel
 -  **Data Sources**:
   - NYC Rent Index: [StreetEasy Rental Index](https://streeteasy.com/blog/data-dashboard/)
   - Inflation Data: [BLS CPI 12-Month Percent Change](https://www.bls.gov/)
